@@ -1,0 +1,13 @@
+# BIR PH JMIT - Public folder .gitignore
+# Allow specific asset files that are needed for Frappe build process
+
+# Ignore all by default
+*
+
+# But allow these specific files that prevent build failures
+!.gitignore
+!manifest.json
+!js/
+!css/
+!js/bir_ph_jmit.js
+!css/bir_ph_jmit.css
