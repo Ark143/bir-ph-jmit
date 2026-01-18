@@ -5,7 +5,14 @@
   "author": "JMIT",
   "license": "MIT",
   "private": true,
-  "scripts": {},
+  "main": "",
+  "scripts": {
+    "build": "echo 'No build required for backend-only app'"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "frappe": {
+    "skip_build": true,
+    "backend_only": true
+  }
 }

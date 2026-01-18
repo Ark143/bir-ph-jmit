@@ -20,15 +20,19 @@ minimum_erpnext_version = "15.0"
 # Backend-only app - no frontend assets needed
 # This app provides only Reports, DocTypes, and backend functionality
 
-# Explicitly disable web assets
+# Skip asset building entirely for this backend-only app
+skip_build = True
+
+# Explicitly disable all web assets
 web_include_css = []
 web_include_js = []
 app_include_css = []
 app_include_js = []
-
-# Bundle files (empty for backend-only app)
 website_bundle_js = []
 website_bundle_css = []
+
+# No build dependencies
+build_dependencies = []
 
 # Installation Hooks
 before_app_install = "bir_ph_jmit.install.before_app_install"

@@ -1,0 +1,5 @@
+{
+  "skip_build": true,
+  "backend_only": true,
+  "build_assets": false
+}
