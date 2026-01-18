@@ -24,10 +24,10 @@ has_web_assets = False
 
 # Include minimal assets to satisfy esbuild requirements
 app_include_js = [
-    "js/bir_ph_jmit.bundle.js"
+    "public/js/bir_ph_jmit.bundle.js"
 ]
 app_include_css = [
-    "css/bir_ph_jmit.bundle.css"
+    "public/css/bir_ph_jmit.bundle.css"
 ]
 
 # Installation Hooks
