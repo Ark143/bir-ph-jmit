@@ -22,6 +22,10 @@ minimum_erpnext_version = "15.0"
 app_include_js = []
 app_include_css = []
 
+# Web asset configuration - explicitly disabled
+has_website = False
+has_web_assets = False
+
 # Installation Hooks
 before_app_install = "bir_ph_jmit.install.before_app_install"
 after_app_install = "bir_ph_jmit.install.after_app_install"
