@@ -26,6 +26,10 @@ web_include_js = []
 app_include_css = []
 app_include_js = []
 
+# Bundle files (empty for backend-only app)
+website_bundle_js = []
+website_bundle_css = []
+
 # Installation Hooks
 before_app_install = "bir_ph_jmit.install.before_app_install"
 after_app_install = "bir_ph_jmit.install.after_app_install"
