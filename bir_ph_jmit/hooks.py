@@ -17,6 +17,11 @@ app_version = "1.0.0"
 minimum_frappe_version = "14.0"
 minimum_erpnext_version = "15.0"
 
+# Asset Configuration - No frontend assets in this app
+# The app is backend/report focused only
+app_include_js = []
+app_include_css = []
+
 # Installation Hooks
 before_app_install = "bir_ph_jmit.install.before_app_install"
 after_app_install = "bir_ph_jmit.install.after_app_install"
