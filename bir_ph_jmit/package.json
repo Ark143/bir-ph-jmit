@@ -4,15 +4,5 @@
   "description": "Standard Bureau of Internal Revenue (BIR) Philippines Reports for ERPNext v15",
   "author": "JMIT",
   "license": "MIT",
-  "private": true,
-  "scripts": {
-    "build": "exit 0",
-    "dev": "exit 0"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "files": [
-    "public/js/bir_ph_jmit.bundle.js",
-    "public/css/bir_ph_jmit.bundle.css"
-  ]
+  "private": true
 }

@@ -17,18 +17,8 @@ app_version = "1.0.0"
 minimum_frappe_version = "14.0"
 minimum_erpnext_version = "15.0"
 
-# Web asset configuration - explicitly disabled
-# This is a backend/report-only app with no frontend assets
-has_website = False
-has_web_assets = False
-
-# Include minimal assets to satisfy esbuild requirements
-app_include_js = [
-    "public/js/bir_ph_jmit.bundle.js"
-]
-app_include_css = [
-    "public/css/bir_ph_jmit.bundle.css"
-]
+# Backend-only app - no frontend assets needed
+# This app provides only Reports, DocTypes, and backend functionality
 
 # Installation Hooks
 before_app_install = "bir_ph_jmit.install.before_app_install"
