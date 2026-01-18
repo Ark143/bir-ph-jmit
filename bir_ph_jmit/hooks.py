@@ -22,9 +22,14 @@ minimum_erpnext_version = "15.0"
 has_website = False
 has_web_assets = False
 
-# Completely disable the build for this app (no public folder)
-app_include_js = None
-app_include_css = None
+# Build configuration - no JavaScript or CSS bundles
+# This tells esbuild that there's nothing to build for this app
+build_command_configurations = {
+    "bir_ph_jmit": {
+        "entry": {},
+        "output": {}
+    }
+}
 
 # Installation Hooks
 before_app_install = "bir_ph_jmit.install.before_app_install"
