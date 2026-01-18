@@ -17,12 +17,8 @@ app_version = "1.0.0"
 minimum_frappe_version = "14.0"
 minimum_erpnext_version = "15.0"
 
-# Asset Configuration - No frontend assets in this app
-# The app is backend/report focused only
-app_include_js = []
-app_include_css = []
-
 # Web asset configuration - explicitly disabled
+# This is a backend/report-only app with no frontend assets
 has_website = False
 has_web_assets = False
 

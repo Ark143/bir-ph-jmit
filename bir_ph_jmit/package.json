@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "echo 'No build required - backend only app'"
+    "build": "echo 'Backend-only app, no assets to build'"
   },
   "dependencies": {},
   "devDependencies": {}
